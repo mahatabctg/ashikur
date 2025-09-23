@@ -1,0 +1,60 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .banner .para-hello {
+        font-weight: 500;
+        font-size: 17px;
+        margin: 37px 0px 8px;
+
+    }
+
+    .banner h1 {
+        font-weight: 700;
+        font-size: 34px;
+        margin-bottom: 14px;
+
+    }
+
+    .banner .lorem {
+        font-size: 15px;
+        line-height: 190%;
+        margin-bottom: 22px;
+    }
+
+    .banner .btn {
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    .banner .btn--primary {
+        padding: 8px 20px;
+    }
+
+    .banner a.btn--primary {
+        margin-right: 12px;
+    }
+
+    .banner .btn--outline {
+        padding: 8px 7px;
+    }
+
+    .banner .written {
+        margin-bottom: 40px;
+    }
+
+    .banner .follow span {
+        font-size: 16px;
+        margin-right: 16px
+    }
+    .banner .follow .icon a{
+        width: 32px;
+        height: 32px;;
+    }
+    .banner .follow{
+            margin: 48px 0px 80px;
+    }
+    .banner .follow .icons{
+        gap: 13px;
+    }
+    #hideicon{
+        display: none;
+    }
+}

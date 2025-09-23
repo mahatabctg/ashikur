@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.btn {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    border-radius: 20px;
+    padding: 18px 43px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+
+.btn--primary:hover,
+.btn--primary {
+    background: #fc0;
+    color: #fff;
+
+}
+
+.btn--outline {
+    border: 1px solid #000;
+    padding: 16px 18px;
+    color: #353535;
+}
+
+.btn--outline:hover {
+    color: white;
+    background-color: black;
+}
+
+/* end common css */
+/* start nav-bar */
+#navbarSupportedContent li a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: #353535;
+    padding: 18px 22px 5px;
+    border-bottom: 1px solid transparent;
+}
+
+#navbarSupportedContent a:hover,
+#navbarSupportedContent a.active {
+    border-bottom: 1px solid #353535;
+}
+
+/* ending nav-bar */
+/* starting banner */
+.banner {
+    padding: 56px 0px 155px;
+}
+
+.banner .para-hello {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+    margin: 120px 0px 15px;
+}
+
+.banner .lorem {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+    margin-bottom: 43px;
+}
+
+.banner h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+    margin-bottom: 25px;
+}
+
+.banner a.btn--primary {
+    margin-right: 38px;
+}
+
+.banner .follow span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: #353535;
+    margin-right: 32px;
+
+}
+
+.banner .follow .icon a {
+    height: 40px;
+    width: 40px;
+    background-color: #F4F3F3;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+}
+
+.banner .follow {
+    display: flex;
+    align-items: center;
+    margin: 68px 0px 40px;
+}
+
+.banner .follow .icons {
+    display: flex;
+    gap: 16px;
+}
+
+/* ending banner */
+/* starting my details */
+.my-details {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 660px;
+    width: 1440px;
+}
+
+.my-details .col-lg-5 {
+    padding-right: 22px;
+    padding-top: 26px;
+}
+
+.my-details .col-lg-7 h1 {
+    margin-bottom: 26px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+}
+
+.my-details .col-lg-7 p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    margin-bottom: 45px;
+}
+
+.my-details .col-lg-7 {
+    padding: 78px 12px 86px;
+}
+
+.my-details .col-lg-7 .btn {
+    padding: 17px 43px;
+
+}
+
+/* .my-details:hover{
+    transform: rotate(-90deg);
+}
+.my-details .container:hover{
+    transform: rotate(-270deg);
+} */
+
+/* ending my details*/
+/* starting quality */
+.quality .box {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border-radius: 20px;
+}
+
+.quality .box img {
+    display: block;
+    margin: 0px auto 30px;
+}
+
+.quality .box h3 {
+    margin: 0 0 14px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+}
+
+.quality .box p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    text-align: center;
+    color: #7a7a7a;
+}
+
+.box {
+    text-align: center;
+    margin: 0px 32px 166px 0px;
+    padding-top: 39px;
+    padding-bottom: 57px;
+}
+
+
+/* ending quality */
