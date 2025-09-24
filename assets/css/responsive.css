@@ -14,6 +14,9 @@
         margin: 37px 0px 8px;
 
     }
+    .banner .para-hello img{
+        width: 16px;
+    }
 
     .banner h1 {
         font-weight: 700;
