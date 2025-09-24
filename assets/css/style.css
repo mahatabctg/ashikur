@@ -192,7 +192,7 @@ ol {
 }
 
 /* .my-details:hover{
-    transform: rotate(-90deg);
+    flex-direction: column;
 }
 .my-details .container:hover{
     transform: rotate(-270deg);
@@ -239,3 +239,14 @@ ol {
 
 
 /* ending quality */
+
+/* starting digital */
+.digital .p-digital {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 507px;
+    width: auto;
+}
+
+/* ending digital */
