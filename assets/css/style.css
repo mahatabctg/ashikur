@@ -93,7 +93,7 @@ ol {
 /* ending nav-bar */
 /* starting banner */
 .banner {
-    padding: 56px 0px 155px;
+    /* padding: 56px 0px 155px; */
 }
 
 .banner .para-hello {
@@ -149,7 +149,7 @@ ol {
 .banner .follow {
     display: flex;
     align-items: center;
-    margin: 68px 0px 40px;
+    margin: 68px 0px 0px;
 }
 
 .banner .follow .icons {
@@ -157,9 +157,8 @@ ol {
     gap: 16px;
 }
 
-.banner .follow .icons .icon i {}
-
 /* ending banner */
+
 /* starting my details */
 .my-details {
     background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
