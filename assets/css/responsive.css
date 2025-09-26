@@ -1,4 +1,6 @@
 @media (min-width: 320px) and (max-width: 768px) {
+
+    /* starting nav-bar */
     .navbar {
         box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
         background: #fff;
@@ -6,15 +8,20 @@
         top: 0;
         right: 0;
         left: 0;
+        z-index: 100;
     }
 
+    /* ending nav-bar */
+
+    /* starting nav-bar */
     .banner .para-hello {
         font-weight: 500;
         font-size: 17px;
         margin: 37px 0px 8px;
 
     }
-    .banner .para-hello img{
+
+    .banner .para-hello img {
         width: 16px;
     }
 
@@ -50,11 +57,20 @@
 
     .banner .written {
         margin-bottom: 40px;
+        padding: 0px 16px 0px 17px;
+    }
+
+    .banner .banner-img {
+        padding: 0px 38px;
     }
 
     .banner .follow span {
         font-size: 16px;
         margin-right: 16px
+    }
+
+    .banner .follow {
+        padding-left: 16px;
     }
 
     .banner .follow .icon a {
@@ -75,4 +91,201 @@
         display: none;
     }
 
+    /* ending banner */
+
+    /* starting my-details */
+    .my-details {
+        padding: 43px 0px 0px 17px;
+    }
+
+    .my-details .ellipse {
+        max-width: 87px;
+        transform: rotate(-180deg);
+        top: -43px;
+        right: 23px;
+    }
+
+    .my-details h1 {
+        font-size: 24px;
+    }
+
+    .my-details p {
+        font-size: 14px;
+        line-height: 171%;
+        margin: 16px 0px 36px 0px;
+    }
+
+    .my-details .btn {
+        position: absolute;
+        padding: 11px 28px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 180%;
+
+    }
+
+    .my-details .my-pic {
+        transform: scalex(-1);
+    }
+
+    /* ending my-details */
+
+    /* starting quality */
+    .quality {
+        margin: 66px 0px 85px;
+    }
+
+    .quality .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quality .box {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 35px 32px 30px 24px;
+        width: 100%;
+    }
+
+    .quality .box .box-img img {
+        width: 43px;
+        height: 45px;
+    }
+
+    .quality .box-img {
+        text-align: left;
+        display: inline-block;
+
+    }
+
+    .quality .box-written {
+        text-align: justify;
+        display: inline-block;
+    }
+
+    .quality .box .box-written p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 174%;
+        color: #7a7a7a;
+    }
+
+    .quality .box .box-written h3 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 180%;
+        color: #353535;
+    }
+
+    /* ending quality */
+
+    /* starting project */
+    .project {
+        padding: 27px 25px 0px 10px;
+    }
+
+    .project .project-written h3 {
+        display: block;
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 24px;
+        color: #353535;
+        /* margin-top: 27px; */
+    }
+
+    .project .project-written p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 180%;
+        margin: 17px 0px 15px;
+    }
+
+    .project .project-written .btn {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 180%;
+        color: #353535;
+        border: none;
+        padding: 0px;
+    }
+
+    .project .project-written .btn:hover {
+        background-color: inherit;
+    }
+
+    .project .btn .btn-hidden-icon {
+        display: block;
+        margin-top: 8px;
+        margin-left: -7px;
+    }
+
+    .project .project-written .project-line {
+        display: none;
+    }
+
+    .project .project-written .project-ellipse {
+        width: 43px;
+        top: -46px;
+        right: 31px;
+    }
+
+    /* ending project */
+
+    /* starting service */
+    .service {
+        margin: 76px 0px 64px;
+    }
+
+    .service .write {
+        text-align: start;
+        padding: 0px 16px;
+    }
+
+    .service .write h3 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .service .write .details {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 180%;
+        margin: 29px 0px 24px;
+    }
+
+    .service .write .details .break {
+        display: none;
+    }
+
+    .service .write .write-client .number {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .service .write-client {
+        justify-content: start;
+        gap: 26px;
+    }
+
+    .service .write .write-client .clients {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 180%;
+        margin-bottom: 38px;
+    }
+
+    .service .design {
+        gap: 17px;
+        padding: 15px 0px 15px 26px;
+    }
+
+    .service .design .design-written h5 {
+        font-size: 15px;
+    }
+
+    /* ending service */
 }

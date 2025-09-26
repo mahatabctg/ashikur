@@ -10,7 +10,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
 }
+
+
 
 h1,
 h2,
@@ -149,107 +156,205 @@ ol {
     display: flex;
     gap: 16px;
 }
-.banner .follow .icons .icon i{
-   
-}
+
+.banner .follow .icons .icon i {}
 
 /* ending banner */
 /* starting my details */
 .my-details {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 660px;
-    width: 1440px;
-}
-
-.my-details .col-lg-5 {
-    padding-right: 22px;
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
     padding-top: 26px;
 }
 
-.my-details .col-lg-7 h1 {
-    margin-bottom: 26px;
+.my-details .container {
+    z-index: 99;
+}
+
+.my-details h1 {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 50px;
     color: #353535;
 }
 
-.my-details .col-lg-7 p {
+.my-details p {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
     line-height: 190%;
     color: #353535;
-    margin-bottom: 45px;
+    margin: 26px 0px 45px;
 }
 
-.my-details .col-lg-7 {
-    padding: 78px 12px 86px;
+.my-details .ellipse {
+    position: absolute;
+    right: -30px;
+    bottom: 0px;
 }
 
-.my-details .col-lg-7 .btn {
+.my-details .btn {
     padding: 17px 43px;
 
 }
 
-/* .my-details:hover{
-    flex-direction: column;
-}
-.my-details .container:hover{
-    transform: rotate(-270deg);
-} */
-
 /* ending my details*/
+
 /* starting quality */
+.quality {
+    margin: 151px auto 166px;
+}
+
+.quality .row {
+    gap: 32px;
+    
+}
+
 .quality .box {
+    border-radius: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    padding: 39px 47px 57px;
+    width: calc(33.33% - 32px);
+}
+
+.quality .box-img {
+    text-align: center;
+}
+
+.quality .box-written {
+    text-align: center;
+}
+
+.quality .box .box-written h4 {
+    margin: 18px 0px 14px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 180%;
+    color: #353535;
+}
+
+.quality .box .box-written p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #7a7a7a;
+}
+
+/* ending quality */
+
+/* starting project */
+.project {
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+    padding: 25px 51px 0px 39px;
+}
+
+.project .project-written h3 {
+    display: none;
+}
+
+.project .project-written p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    margin: 160px 0px 35px;
+}
+
+.project .btn--outline {
+    padding: 18px 38px;
+}
+
+.project .btn .btn-hidden-icon {
+    display: none;
+}
+
+.project .project-written .project-line {
+    position: absolute;
+    right: 362px;
+    bottom: 80px;
+}
+
+.project .project-written .project-ellipse {
+    position: absolute;
+    top: -51px;
+    right: 234px;
+}
+
+/* ending project */
+
+/* starting service */
+.service {
+    margin: 146px 0px 225px;
+}
+
+.service .design {
+    gap: 18px;
+    padding: 17px 0px 17px 29px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
     background: #fff;
     border-radius: 20px;
 }
 
-.quality .box img {
-    display: block;
-    margin: 0px auto 30px;
-}
-
-.quality .box h3 {
-    margin: 0 0 14px;
+.service .design .design-written h5 {
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 180%;
-    text-align: center;
     color: #353535;
 }
 
-.quality .box p {
+.service .design .design-written p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+    color: #353535;
+}
+
+.service .design-2 {
+    margin: 24px 0px;
+}
+.service .write{
+    text-align: end;
+}
+.service .write h3 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+}
+
+.service .write .details{
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 190%;
-    text-align: center;
-    color: #7a7a7a;
+    color: #353535;
+    margin: 26px 0px 32px;
 }
 
-.box {
-    text-align: center;
-    margin: 0px 32px 166px 0px;
-    padding-top: 39px;
-    padding-bottom: 57px;
+.service .write-client{
+    justify-content: end;
+    gap: 110px;
+}
+.service .write .write-client .number {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: #353535;
+    margin-bottom: 9px;
+}
+
+.service .write .write-client .clients {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: #353535;
 }
 
 
-/* ending quality */
-
-/* starting digital */
-.digital .p-digital {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 507px;
-    width: auto;
-}
-
-/* ending digital */
+/* ending service *
