@@ -199,7 +199,7 @@ ol {
 /* ending my details*/
 
 /* starting quality */
-.quality {
+/* .quality {
     margin: 151px auto 166px;
 }
 
@@ -239,18 +239,69 @@ ol {
     font-size: 16px;
     line-height: 190%;
     color: #7a7a7a;
+} */
+.quality {
+    margin: 151px 0 166px;
+}
+
+.quality .card {
+
+    padding: 39px 47px 57px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border: none;
+    width: 350px;
+    /* text-align: center; */
+    border-radius: 20px;
+}
+
+.card img {
+    margin: 0 auto;
+}
+
+.quality .card .img {}
+
+.quality .card h4 {
+    margin: 18px 0px 14px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 180%;
+    color: #353535;
+}
+
+.quality .card p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #7a7a7a;
+}
+
+.quality .card-body {
+    padding: 0px;
+    text-align: center;
 }
 
 /* ending quality */
 
 /* starting project */
 .project {
+
+    /* padding: 25px 51px 0px 39px; */
+}
+
+.project .row {
     background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
-    padding: 25px 51px 0px 39px;
+    border-radius: 30px;
 }
 
 .project .project-written h3 {
-    display: none;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 44px;
+    color: #353535;
+    margin-top: 82px;
 }
 
 .project .project-written p {
@@ -259,7 +310,7 @@ ol {
     font-size: 18px;
     line-height: 190%;
     color: #353535;
-    margin: 160px 0px 35px;
+    margin: 21px 0px 35px;
 }
 
 .project .btn--outline {
@@ -272,13 +323,13 @@ ol {
 
 .project .project-written .project-line {
     position: absolute;
-    right: 362px;
+    right: 358px;
     bottom: 80px;
 }
 
 .project .project-written .project-ellipse {
     position: absolute;
-    top: -51px;
+    top: -37px;
     right: 234px;
 }
 
@@ -316,9 +367,11 @@ ol {
 .service .design-2 {
     margin: 24px 0px;
 }
-.service .write{
+
+.service .write {
     text-align: end;
 }
+
 .service .write h3 {
     font-family: var(--second-family);
     font-weight: 700;
@@ -326,7 +379,7 @@ ol {
     color: #353535;
 }
 
-.service .write .details{
+.service .write .details {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
@@ -335,10 +388,11 @@ ol {
     margin: 26px 0px 32px;
 }
 
-.service .write-client{
+.service .write-client {
     justify-content: end;
     gap: 110px;
 }
+
 .service .write .write-client .number {
     font-family: var(--second-family);
     font-weight: 700;
@@ -355,5 +409,198 @@ ol {
     color: #353535;
 }
 
-
 /* ending service *
+
+/* starting work */
+.work h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+    margin-bottom: 80px;
+}
+
+.work .timeline h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
+}
+
+.work .timeline p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+}
+
+.work .timeline .duration {
+    border-right: 2px dashed #7a7a7a;
+    padding: 22px 0 99px;
+    position: relative;
+}
+
+.work .timeline .duration::before {
+    content: '';
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 2px dashed #7a7a7a;
+    display: block;
+    position: absolute;
+    top: -21px;
+    right: -21px;
+    background-color: white;
+}
+
+.work .timeline .duration::after {
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #52ab70;
+}
+
+.work .timeline .duration-2 {
+    border-right: 2px dashed #7a7a7a;
+    padding: 22px 0 99px;
+    position: relative;
+}
+
+.work .timeline .duration-2::before {
+    content: '';
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 2px dashed #7a7a7a;
+    display: block;
+    position: absolute;
+    top: -21px;
+    right: -21px;
+    background-color: white;
+}
+
+.work .timeline .duration-2::after {
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #f17676;
+}
+
+.work .timeline .duration-3 {
+    border-right: 2px dashed #7a7a7a;
+    padding: 22px 0 99px;
+    position: relative;
+}
+
+.work .timeline .duration-3::before {
+    content: '';
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 2px dashed #7a7a7a;
+    display: block;
+    position: absolute;
+    top: -21px;
+    right: -21px;
+    background-color: white;
+}
+
+.work .timeline .duration-3::after {
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ffd233;
+}
+
+/* ending work */
+
+/* starting design */
+.service-area {
+    background: #fff7d5;
+    margin: 146px 0px 91px;
+    padding: 75px 0px 103px;
+}
+
+.service-area .design-heading {
+    text-align: center;
+    /* margin-bottom: 73px; */
+}
+
+.service-area .design-heading h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+    margin-bottom: 9px;
+    /* margin-top: 75px; */
+}
+
+.service-area .design-heading p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+}
+
+.service-area .card {
+    width: 350px;
+    padding: 32px 49px 80px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    border: none;
+    
+    /* text-align: center; */
+    border-radius: 12px;
+}
+.service-area .card-body{
+    padding: 0px;
+    text-align: center;
+}
+.service-area .card-body h3 {
+    /* margin: 20px 0x 25px; */
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+line-height: 180%;
+color: #353535;
+}
+.service-area .card-body p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 15px;
+line-height: 180%;
+color: #7a7a7a;
+}
+.service-area .box{
+    margin-top: 99px;
+    width: 350px;
+}
+.service-area .box-2{
+    width: 372;
+    height: 448px;
+    margin-top: 73px;
+    padding: 37px 52px 72px;
+}
+
+/* ending design */
