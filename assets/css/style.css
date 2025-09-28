@@ -93,7 +93,7 @@ ol {
 /* ending nav-bar */
 /* starting banner */
 .banner {
-    /* padding: 56px 0px 155px; */
+    padding: 56px 0px 155px;
 }
 
 .banner .para-hello {
@@ -544,65 +544,75 @@ ol {
     color: #353535;
     margin-bottom: 49px;
 }
-.expert-area .written p{
+
+.expert-area .written p {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 20px;
-line-height: 200%;
-color: #7a7a7a;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #7a7a7a;
 }
-.expert-area .written .end{
+
+.expert-area .written .end {
     margin: 14px 0px 39px;
 }
-.expert-area .written .btn{
+
+.expert-area .written .btn {
     font-family: var(--font-family);
-font-weight: 500;
-font-size: 16px;
-line-height: 180%;
-color: #fff;
-padding: 10px 21px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #fff;
+    padding: 10px 21px;
 }
-.expert-area .percentage .btn{
-font-family: var(--font-family);
-font-weight: 500;
-font-size: 18px;
-line-height: 180%;
-text-align: center;
-/* color: #353535; */
-padding: 15px 65px;
-margin-bottom: 51px;
+
+.expert-area .percentage .btn {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    /* color: #353535; */
+    padding: 15px 65px;
+    margin-bottom: 51px;
 }
-.expert-area .percentage .education{
+
+.expert-area .percentage .education {
     border: none;
     padding: 15px 40px;
     margin-left: 32px;
 }
+
 .expert-area .skill {
 
-  margin-bottom: 44px;
+    margin-bottom: 44px;
 
 }
-.expert-area .ex{
+
+.expert-area .ex {
     display: flex;
-     /* margin-top: 51px; */
-     margin-bottom: 11px;
+    /* margin-top: 51px; */
+    margin-bottom: 11px;
 }
-.expert-area .ex{
+
+.expert-area .ex {
     font-size: 18px;
 }
-.expert-area .skill-name {
-font-family: var(--font-family);
-font-weight: 600;
 
-line-height: 180%;
-color: #353535;
-}
-.expert-area .skill-percentage{
+.expert-area .skill-name {
     font-family: var(--font-family);
-font-weight: 400;
-line-height: 180%;
-text-align: right;
-color: #f16500;
+    font-weight: 600;
+
+    line-height: 180%;
+    color: #353535;
+}
+
+.expert-area .skill-percentage {
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 180%;
+    text-align: right;
+    color: #f16500;
 }
 
 .expert-area .figma .skill-percentage {
@@ -611,54 +621,59 @@ color: #f16500;
 }
 
 .expert-area .progress-bar {
-  height: 6px;
-  background-color: #D9D9D9;
-  border-radius: 50px;
+    height: 6px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
 }
 
 .expert-area .progress {
-  height: 100%;
-  border-radius: 50px;
+    height: 100%;
+    border-radius: 50px;
 }
-.expert-area .figma .progress{
+
+.expert-area .figma .progress {
     width: 85%;
     background-color: orange;
 }
 
 
-.expert-area .photoshop .progress{
+.expert-area .photoshop .progress {
     width: 75%;
     background: #03249b;
 }
-.expert-area .photoshop .skill-percentage{
+
+.expert-area .photoshop .skill-percentage {
     margin-left: 41%;
     color: #03249b;
 }
 
 
-.expert-area .xd .progress{
+.expert-area .xd .progress {
     width: 80%;
     background-color: #700D60;
 }
-.expert-area .xd .skill-percentage{
+
+.expert-area .xd .skill-percentage {
     margin-left: 65%;
-            color: #700D60;
+    color: #700D60;
 }
-.expert-area .xd .ex .skill-name{
-        color: #700D60;
+
+.expert-area .xd .ex .skill-name {
+    color: #700D60;
 }
 
 
-.expert-area .illustrator .progress{
+.expert-area .illustrator .progress {
     width: 70%;
     background: #234bda;
 }
-.expert-area .illustrator .skill-percentage{
+
+.expert-area .illustrator .skill-percentage {
     margin-left: 39%;
     color: #234bda;
 }
 
-.expert-area .illustrator .ex .skill-name{
+.expert-area .illustrator .ex .skill-name {
     color: #234bda;
 }
 
@@ -670,7 +685,7 @@ color: #f16500;
 /* starting design */
 .service-area {
     background: #fff7d5;
-    margin: 102px 0px 91px;
+    margin: 102px 0px 0px;
     padding: 75px 0px 103px;
 }
 
@@ -744,3 +759,71 @@ color: #f16500;
 }
 
 /* ending design */
+
+/* starting feedback */
+.feedback .row{
+    /* padding-bottom:58px ; */
+    margin-bottom: 150px;
+
+}
+.feedback .feedback-heading {
+    margin-bottom: 63px;
+    margin-top: 91px;
+
+    h3 {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 135%;
+        color: #353535;
+    }
+
+    p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 180%;
+        color: #7a7a7a;
+    }
+}
+
+.feedback .col-lg-8 {
+    padding: 97px 0px 0px 99px;
+
+    .pa-1 {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 200%;
+        color: #7a7a7a;
+    }
+
+    .pa-2 {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 200%;
+        color: #353535;
+        margin: 24px 0px 0px;
+        /* margin-bottom: 2px; */
+    }
+
+    .pa-3 {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        /* text-align: center; */
+        color: #7a7a7a;
+    }
+}
+.feedback .feedback-hidden{
+    position: absolute;
+    bottom: 90px;
+    left: -29px;
+}
+.feedback .border--1{
+    display: none;
+}
+
+/* ending feedback */

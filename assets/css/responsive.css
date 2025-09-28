@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
     /* starting nav-bar */
     .navbar {
@@ -302,37 +302,45 @@
     .expert-area .written h3 {
         font-size: 24px;
     }
-    .expert-area .written p{
+
+    .expert-area .written p {
         font-size: 15px;
     }
-    .expert-area .written .end{
+
+    .expert-area .written .end {
         margin: 26px 0px 17px;
     }
-    .expert-area .written .btn{
+
+    .expert-area .written .btn {
         display: none;
     }
-    .expert-area .percentage .btn{
+
+    .expert-area .percentage .btn {
         font-size: 16px;
         margin: 48px 0px;
         padding: 12px 53px;
     }
-    .expert-area .percentage .education{
+
+    .expert-area .percentage .education {
         /* margin-left: 15px; */
         padding: 12px 0px 12px 45px;
     }
-    .expert-area .percentage .education:hover{
+
+    .expert-area .percentage .education:hover {
         background-color: white;
         color: black;
     }
-    
-    .expert-area .percentage .ex{
+
+    .expert-area .percentage .ex {
         font-size: 14px;
     }
+
     /* ending expert-area */
 
     /* starting service-area*/
     .service-area {
-        margin: 43px 0px 10px;
+        margin: 43px 0px 0px;
+        padding: 34px 0px 40px;
     }
 
     .service-area .hide {
@@ -387,4 +395,60 @@
     }
 
     /* ending service-area */
+
+    /* starting feedback */
+    .feedback .row {
+        margin-bottom: 92px;
+    }
+
+    .feedback .feedback-heading {
+        margin: 41px 0px 39px 17px;
+
+        h3 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+    }
+
+    .feedback .col-lg-4 {
+        text-align: center;
+    }
+
+    .feedback .feedback-img {
+        width: 256px;
+        margin: 0 auto;
+    }
+
+    .feedback .feedback-hidden {
+        width: 57px;
+        bottom: 46px;
+        left: 50px;
+    }
+
+    .feedback .col-lg-8 {
+        padding: 19px 17px 0px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .feedback .pa-1 {
+        font-size: 15px;
+
+    }
+    .feedback .pa-2{
+        font-size: 15px;
+        margin-top: 13px;
+    }
+
+    .feedback .border--1 {
+        display: inline-block;
+        width: 35px;
+    }
+
+    /* ending feedback */
 }
