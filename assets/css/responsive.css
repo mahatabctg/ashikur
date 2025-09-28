@@ -317,9 +317,14 @@
         padding: 12px 53px;
     }
     .expert-area .percentage .education{
-        margin-left: 25px;
+        /* margin-left: 15px; */
         padding: 12px 45px;
     }
+    .expert-area .percentage .education:hover{
+        background-color: white;
+        color: black;
+    }
+    
     .expert-area .percentage .ex{
         font-size: 14px;
     }
