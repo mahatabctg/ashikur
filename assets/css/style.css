@@ -761,11 +761,12 @@ ol {
 /* ending design */
 
 /* starting feedback */
-.feedback .row{
+.feedback .row {
     /* padding-bottom:58px ; */
     margin-bottom: 150px;
 
 }
+
 .feedback .feedback-heading {
     margin-bottom: 63px;
     margin-top: 91px;
@@ -817,13 +818,163 @@ ol {
         color: #7a7a7a;
     }
 }
-.feedback .feedback-hidden{
+
+.feedback .feedback-hidden {
     position: absolute;
     bottom: 90px;
     left: -29px;
 }
-.feedback .border--1{
+
+.feedback .border--1 {
     display: none;
 }
 
 /* ending feedback */
+
+/* stating blog */
+
+.blog h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 135%;
+    text-align: right;
+    color: #353535;
+    margin-bottom: 112px;
+}
+
+.blog .blog-main {
+    gap: 34px;
+}
+
+.blog .blog-main .blog-written .blog-written-titel .date {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 190%;
+    color: #7a7a7a;
+    padding: 0px 25px 0px 11px;
+}
+
+.blog .blog-main .blog-written .blog-written-titel span {
+    /* font-size: 120px; */
+    color: #7a7a7a;
+}
+
+.blog .blog-main .blog-written .blog-written-titel .name {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 190%;
+    color: #353535;
+}
+
+.blog .blog-main h5 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    margin-top: 13px;
+    margin-bottom: 50px;
+}
+
+.blog .blog-main a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    position: relative;
+}
+
+.blog .blog-main a span {
+    position: absolute;
+    top: 2px;
+    right: -25px;
+}
+
+.blog .main-1 {
+    margin-bottom: 41px;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 0px;
+
+}
+
+.main-2 {
+    margin-bottom: 166px;
+}
+
+/* ending blog */
+
+/* starting email */
+
+.email .row {
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+    padding: 86px 54px 81px 76px;
+    border-radius: 30px;
+}
+.email h5{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 200%;
+text-align: center;
+color: #353535;
+}
+.email h3{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 36px;
+line-height: 200%;
+color: #353535;
+}
+.email p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 200%;
+color: #353535;
+}
+
+.email .email-form .form {
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+.email .email-form .form input {
+    border: none;
+    padding: 23px 0px 23px 37px;
+    flex-grow: 1;
+    height: 82px;
+    line-height: 82px;
+}
+
+.email .email-form .form input::placeholder {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+}
+
+.email .email-form .form button {
+    border: none;
+    padding: 12px 7px;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+    color: #fff;
+    background: #ff6565;
+}
