@@ -532,10 +532,145 @@ ol {
 
 /* ending work */
 
+/* starting servicce-area */
+.expert-area {
+    margin-top: 300px;
+}
+
+.expert-area .written h3 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+    margin-bottom: 49px;
+}
+.expert-area .written p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 200%;
+color: #7a7a7a;
+}
+.expert-area .written .end{
+    margin: 14px 0px 39px;
+}
+.expert-area .written .btn{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+color: #fff;
+padding: 10px 21px;
+}
+.expert-area .percentage .btn{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 180%;
+text-align: center;
+/* color: #353535; */
+padding: 15px 65px;
+margin-bottom: 51px;
+}
+.expert-area .percentage .education{
+    border: none;
+    padding: 15px 40px;
+    margin-left: 32px;
+}
+.expert-area .skill {
+
+  margin-bottom: 44px;
+
+}
+.expert-area .ex{
+    display: flex;
+     /* margin-top: 51px; */
+     margin-bottom: 11px;
+}
+.expert-area .ex{
+    font-size: 18px;
+}
+.expert-area .skill-name {
+font-family: var(--font-family);
+font-weight: 600;
+
+line-height: 180%;
+color: #353535;
+}
+.expert-area .skill-percentage{
+    font-family: var(--font-family);
+font-weight: 400;
+line-height: 180%;
+text-align: right;
+color: #f16500;
+}
+
+.expert-area .figma .skill-percentage {
+    margin-left: 62%;
+
+}
+
+.expert-area .progress-bar {
+  height: 6px;
+  background-color: #D9D9D9;
+  border-radius: 50px;
+}
+
+.expert-area .progress {
+  height: 100%;
+  border-radius: 50px;
+}
+.expert-area .figma .progress{
+    width: 85%;
+    background-color: orange;
+}
+
+
+.expert-area .photoshop .progress{
+    width: 75%;
+    background: #03249b;
+}
+.expert-area .photoshop .skill-percentage{
+    margin-left: 41%;
+    color: #03249b;
+}
+
+
+.expert-area .xd .progress{
+    width: 80%;
+    background-color: #700D60;
+}
+.expert-area .xd .skill-percentage{
+    margin-left: 65%;
+            color: #700D60;
+}
+.expert-area .xd .ex .skill-name{
+        color: #700D60;
+}
+
+
+.expert-area .illustrator .progress{
+    width: 70%;
+    background: #234bda;
+}
+.expert-area .illustrator .skill-percentage{
+    margin-left: 39%;
+    color: #234bda;
+}
+
+.expert-area .illustrator .ex .skill-name{
+    color: #234bda;
+}
+
+
+
+
+/* ending service-area */
+
 /* starting design */
 .service-area {
     background: #fff7d5;
-    margin: 146px 0px 91px;
+    margin: 102px 0px 91px;
     padding: 75px 0px 103px;
 }
 
@@ -567,36 +702,41 @@ ol {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
     background: #fff;
     border: none;
-    
+
     /* text-align: center; */
     border-radius: 12px;
 }
-.service-area .card-body{
+
+.service-area .card-body {
     padding: 0px;
     text-align: center;
 }
+
 .service-area .card-body h3 {
     /* margin: 20px 0x 25px; */
     margin-top: 20px;
     margin-bottom: 25px;
     font-family: var(--font-family);
-font-weight: 600;
-font-size: 24px;
-line-height: 180%;
-color: #353535;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
 }
-.service-area .card-body p{
+
+.service-area .card-body p {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 15px;
-line-height: 180%;
-color: #7a7a7a;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 180%;
+    color: #7a7a7a;
 }
-.service-area .box{
+
+.service-area .box {
     margin-top: 99px;
     width: 350px;
 }
-.service-area .box-2{
+
+.service-area .box-2 {
     width: 372;
     height: 448px;
     margin-top: 73px;

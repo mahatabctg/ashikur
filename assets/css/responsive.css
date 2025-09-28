@@ -289,23 +289,64 @@
 
     /* ending service */
 
-    /* starting design */
-    .service-area{
-        margin: 100px 0px 10px;
+    /* starting work */
+
+    /* ending wordk */
+
+    /* starting expert-area */
+
+    .expert-area {
+        margin-top: 77px;
     }
-    .service-area .hide{
-        display: none;
-    }
-    .service-area .design-heading h2{
+
+    .expert-area .written h3 {
         font-size: 24px;
     }
-    .service-area .design-heading p{
+    .expert-area .written p{
+        font-size: 15px;
+    }
+    .expert-area .written .end{
+        margin: 26px 0px 17px;
+    }
+    .expert-area .written .btn{
+        display: none;
+    }
+    .expert-area .percentage .btn{
+        font-size: 16px;
+        margin: 48px 0px;
+        padding: 12px 53px;
+    }
+    .expert-area .percentage .education{
+        margin-left: 32px;
+        padding: 12px 45px;
+    }
+    .expert-area .percentage .ex{
+        font-size: 14px;
+    }
+    /* ending expert-area */
+
+    /* starting service-area*/
+    .service-area {
+        margin: 43px 0px 10px;
+    }
+
+    .service-area .hide {
+        display: none;
+    }
+
+    .service-area .design-heading h2 {
+        font-size: 24px;
+    }
+
+    .service-area .design-heading p {
         ont-size: 13px;
     }
-    .service-area .design-heading{
+
+    .service-area .design-heading {
         text-align: start;
         margin-bottom: 45px;
     }
+
     .service-area .card {
         flex-direction: row;
         gap: 15px;
@@ -330,13 +371,15 @@
         margin-top: 0;
         font-size: 15px;
     }
-    .service-area .card-body p{
+
+    .service-area .card-body p {
         font-size: 13px;
     }
-    .service-area .card img{
+
+    .service-area .card img {
         width: 53px;
         height: 53px;
     }
 
-    /* ending design */
+    /* ending service-area */
 }
