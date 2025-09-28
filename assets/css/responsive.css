@@ -318,7 +318,7 @@
     }
     .expert-area .percentage .education{
         /* margin-left: 15px; */
-        padding: 12px 45px;
+        padding: 12px 0px 12px 45px;
     }
     .expert-area .percentage .education:hover{
         background-color: white;
