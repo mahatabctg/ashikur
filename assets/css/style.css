@@ -962,7 +962,7 @@ color: #353535;
 .email .email-form .form input::placeholder {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 18px;
+    /* font-size: 18px; */
     line-height: 200%;
     color: #7a7a7a;
 }
