@@ -290,6 +290,46 @@
     /* ending service */
 
     /* starting work */
+    .work h1 {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+
+    .work .timeline h3 {
+        font-size: 18px;
+    }
+
+    .work .timeline p {
+        font-size: 14px;
+    }
+
+    .work .timeline .duration,
+    .work .timeline .duration-2,
+    .work .timeline .duration-3 {
+        /* border-left: 2px dashed #7a7a7a; */
+        padding: 38px 12px 19px;
+        border-right: none;
+    }
+
+    .work .timeline {
+        border-left: 2px dashed #7a7a7a;
+        width: 88vw;
+        margin: auto;
+        padding: 0px 25px;
+    }
+
+    .work .timeline .duration::before,
+    .work .timeline .duration-2::before,
+    .work .timeline .duration-3::before {
+        top: 0px;
+        left: -35px;
+    }
+    .work .timeline .duration::after,
+    .work .timeline .duration-2::after,
+    .work .timeline .duration-3::after {
+        top: 10px;
+        left: -24px;
+    }
 
     /* ending wordk */
 
@@ -659,13 +699,19 @@
         padding-left: 0px;
         margin: 32px 0px 0px;
     }
-    .footer .follow span{
+
+    .footer .follow span {
         font-size: 14px;
 
     }
 
     .footer .right-side-start .anchor {
         justify-content: start;
+    }
+    .footer .footerhide1,
+    .footer .footerhide2,
+    .footer .footerhide3 {
+        display: none;
     }
 
     /* ending footer */

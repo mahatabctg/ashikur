@@ -101,7 +101,7 @@ ol {
     font-weight: 400;
     font-size: 24px;
     color: #353535;
-    margin: 120px 0px 15px;
+    /* margin: 120px 0px 15px; */
 }
 
 .banner .lorem {
@@ -439,7 +439,7 @@ ol {
 
 .work .timeline .duration {
     border-right: 2px dashed #7a7a7a;
-    padding: 22px 0 99px;
+    padding: 22px 0 99px 12px;
     position: relative;
 }
 
@@ -753,11 +753,13 @@ ol {
     padding: 37px 52px 72px;
     margin-top: 73px;
 }
-.service-area .card:hover img{
+
+.service-area .card:hover img {
     width: 100px;
     height: 100px;
 }
-.service-area .card:hover .card-body{
+
+.service-area .card:hover .card-body {
     transform: scale(1.1);
 }
 
@@ -904,7 +906,8 @@ ol {
 .card {
     border: none;
 }
-.blog .blog-2{
+
+.blog .blog-2 {
     padding-right: 0px;
     padding-left: 45px;
 }
@@ -1079,13 +1082,16 @@ ol {
     margin-right: 24px;
 
 }
-.footer .left-side-end{
+
+.footer .left-side-end {
     margin-top: 94px;
     gap: 175px;
 }
-.footer .middle{
+
+.footer .middle {
     margin: 0px 200px 0px 20px;
 }
+
 .footer .follow .icon a {
     height: 40px;
     width: 40px;
@@ -1107,4 +1113,22 @@ ol {
 .footer .follow .icons {
     display: flex;
     gap: 10px;
+}
+
+.footer .footerhide1 {
+    position: absolute;
+    top: 77px;
+    left: -45px;
+}
+
+.footer .footerhide2 {
+    position: absolute;
+    top: 200px;
+    left: -142px;
+}
+
+.footer .footerhide3 {
+    position: absolute;
+        top: 74px;
+    right: -49px;
 }
