@@ -1000,8 +1000,8 @@ ol {
     padding: 71px 0px 85px;
 }
 
-.footer .left-side .call {
-    margin-top: 182px;
+.footer .left-side-end .call {
+    /* margin-top: 182px; */
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
@@ -1010,7 +1010,7 @@ ol {
     color: #bbb9b9;
 }
 
-.footer .left-side .nmbr {
+.footer .left-side-end .nmbr {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
@@ -1035,10 +1035,10 @@ ol {
     line-height: 180%;
     text-align: justify;
     color: #bbb9b9;
-    margin-bottom: 85px;
+    /* margin-bottom: 85px; */
 }
 
-.footer .middle .email {
+.footer .left-side-end .email {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
@@ -1047,7 +1047,7 @@ ol {
     color: #bbb9b9;
 }
 
-.footer .middle .id {
+.footer .left-side-end .id {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
@@ -1055,7 +1055,7 @@ ol {
     color: #fff;
 }
 
-.footer .right-side .btn {
+.footer .right-side-start .btn {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 18px;
@@ -1064,7 +1064,7 @@ ol {
     padding: 16px 20px 16px 32px;
 }
 
-.footer .right-side .anchor {
+.footer .right-side-start .anchor {
     display: flex;
     justify-content: end;
 }
@@ -1079,7 +1079,13 @@ ol {
     margin-right: 24px;
 
 }
-
+.footer .left-side-end{
+    margin-top: 94px;
+    gap: 175px;
+}
+.footer .middle{
+    margin: 0px 200px 0px 20px;
+}
 .footer .follow .icon a {
     height: 40px;
     width: 40px;
@@ -1095,7 +1101,7 @@ ol {
     display: flex;
     align-items: center;
     padding-left: 43px;
-    margin: 139px 0px 0px;
+    margin: 87px 0px 0px;
 }
 
 .footer .follow .icons {

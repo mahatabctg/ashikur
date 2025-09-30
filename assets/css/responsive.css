@@ -468,7 +468,7 @@
     /* ending feedback */
 
     /* starting blog */
-    .blog .blog-2{
+    .blog .blog-2 {
         padding-right: 12px;
         padding-left: 12px;
     }
@@ -595,6 +595,80 @@
         padding: 5px 0px;
         /* flex-grow: 1; */
     }
+
+    /* ending email */
+
+    /* starting footer */
+
+    .footer {
+        padding-top: 29px;
+        padding-bottom: 60px;
+    }
+
+    .footer .left-side-start img {
+        width: 114px;
+    }
+
+    .footer .middle {
+        margin: 0px 0px 31px;
+    }
+
+    .footer .middle h3 {
+        font-size: 18px;
+        margin-top: 17px;
+        line-height: 200%;
+    }
+
+    .footer .middle .middle-para {
+        font-size: 13px;
+    }
+
+    .footer .right-side-start .btn {
+        padding: 8px 11px 8px 17px;
+        font-size: 10px;
+
+    }
+
+    .footer .left-side-end {
+        margin-top: 39px;
+        gap: 47px;
+    }
+
+    .footer .left-side-end .call {
+        font-size: 12px;
+    }
+
+    .footer .left-side-end .nmbr {
+        font-size: 13px;
+    }
+
+    .footer .left-side-end .email {
+        font-size: 12px;
+    }
+
+    .footer .left-side-end .id {
+        font-size: 13px;
+    }
+
+    .footer .follow .icon a {
+        height: 30px;
+        width: 30px;
+    }
+
+    .footer .follow {
+        padding-left: 0px;
+        margin: 32px 0px 0px;
+    }
+    .footer .follow span{
+        font-size: 14px;
+
+    }
+
+    .footer .right-side-start .anchor {
+        justify-content: start;
+    }
+
+    /* ending footer */
 }
 
 @media (max-width: 370px) {
