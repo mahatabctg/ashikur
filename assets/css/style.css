@@ -750,17 +750,10 @@ ol {
 }
 
 .service-area .card:hover {
-    padding: 37px 52px 72px;
-    margin-top: 73px;
-}
-
-.service-area .card:hover img {
-    width: 100px;
-    height: 100px;
-}
-
-.service-area .card:hover .card-body {
-    transform: scale(1.1);
+    transform: scale(1.2);
+    background: linear-gradient(151deg, #fc0 0%, #ffe476 98.84%);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    z-index: 1;
 }
 
 /* ending service-a*/
@@ -1129,6 +1122,6 @@ ol {
 
 .footer .footerhide3 {
     position: absolute;
-        top: 74px;
+    top: 74px;
     right: -49px;
 }

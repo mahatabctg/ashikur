@@ -435,17 +435,9 @@
     }
 
     .service-area .card:hover {
-        margin: 0px;
-        padding: 26px 24px 23px 22px;
-    }
-
-    .service-area .card:hover img {
-        width: 53px;
-        height: 53px;
-    }
-
-    .service-area .card:hover .card-body {
         transform: scale(1);
+        background: linear-gradient(#fff);
+        z-index: 0;
     }
 
     /* ending service-area */
