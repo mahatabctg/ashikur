@@ -379,7 +379,7 @@
         text-align: justify;
     }
 
-    .service-area .card-body h3 {
+    .service-area .card-body h4 {
         margin-bottom: 0;
         margin-top: 0;
         font-size: 15px;
@@ -392,6 +392,20 @@
     .service-area .card img {
         width: 53px;
         height: 53px;
+    }
+
+    .service-area .card:hover {
+        margin: 0px;
+        padding: 26px 24px 23px 22px;
+    }
+
+    .service-area .card:hover img {
+        width: 53px;
+        height: 53px;
+    }
+
+    .service-area .card:hover .card-body {
+        transform: scale(1);
     }
 
     /* ending service-area */
@@ -454,6 +468,11 @@
     /* ending feedback */
 
     /* starting blog */
+    .blog .blog-2{
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
     .blog h2 {
         font-size: 24px;
         text-align: start;
@@ -482,7 +501,7 @@
 
     .blog .blog-main h5 {
         font-size: 13px;
-        margin: 6px 0px 27px;
+        margin: 6px 0px 14px;
     }
 
     .blog .blog-main a {
@@ -527,55 +546,66 @@
         font-size: 14px;
         line-height: 180%;
     }
+
     .email .email-form {
         margin-top: 40px;
 
     }
-    .email .email-form .form{
-                        height: 62px;
+
+    .email .email-form .form {
+        height: 62px;
         line-height: 62px;
     }
-    .email .email-form .form input{
+
+    .email .email-form .form input {
         padding: 12px 0px 12px 20px;
         /* width: 100%; */
         height: 62px;
         line-height: 62px;
         /* align-items: center; */
     }
-    .email .email-form .form button{
+
+    .email .email-form .form button {
         padding: 11px 7px;
         font-size: 12px;
         /* width: 100%; */
     }
-    .email .email-form .form input::placeholder{
+
+    .email .email-form .form input::placeholder {
         font-size: 12px;
     }
+
     /* endign email */
 }
+
 @media (max-width: 405px) {
     .email .email-form .form {
         height: 50px;
         line-height: 50px;
     }
-    .email .email-form .form input{
+
+    .email .email-form .form input {
         padding: 5px 0px;
         /* flex-grow: 0; */
         height: 50px;
         line-height: 50px;
     }
-    .email .email-form .form button{
+
+    .email .email-form .form button {
         padding: 5px 0px;
         /* flex-grow: 1; */
     }
 }
-@media (max-width: 370px){
-    .email .email-form .form input{
+
+@media (max-width: 370px) {
+    .email .email-form .form input {
         width: 167px;
     }
 
 }
-@media (max-width: 335px){
-    .email .email-form .form input{
+
+@media (max-width: 335px) {
+    .email .email-form .form input {
         width: 124px;
     }
 
